@@ -79,6 +79,25 @@ namespace PX.Objects.AR
                     SendByTelegram(chat_id, data, file.FullName,"Customer Outstanding Balance Of " + Base.BAccount.Current.AcctName);
             }
 
+            //send cc 
+            ARSetup aRSetup = Base.ARSetup.Current;
+            ARSetupExt aRSetupExt = aRSetup.GetExtension<ARSetupExt>();
+            string telCC = aRSetupExt.UsrTelegramCC.ToString();
+            if (telCC.Contains(";"))
+            {
+                string[] listCC = telCC.Split(';');
+                foreach (var cc_chat_id in listCC)
+                {
+                    if(cc_chat_id.Length > 0)
+                        SendByTelegram(cc_chat_id, data, file.FullName, "Customer Outstanding Balance Of " + Base.BAccount.Current.AcctName);
+                }
+            }
+            else
+            {
+                if(telCC.Length > 0)
+                    SendByTelegram(telCC, data, file.FullName, "Customer Outstanding Balance Of " + Base.BAccount.Current.AcctName);
+            }
+
         }
 
         private void SendByTelegram(string chat_id, byte[] data, string fileName,string caption)
