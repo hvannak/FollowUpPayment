@@ -60,6 +60,7 @@ namespace PX.Objects.AR
             //throw new PXRedirectToFileException(file, true);
             //===============================================
 
+
             //get chat id from data set
             PX.Objects.CR.Contact contactPrimary = SelectFrom<PX.Objects.CR.Contact>.InnerJoin<Customer>.On<PX.Objects.CR.Contact.contactID.IsEqual<Customer.primaryContactID>> .Where<Customer.bAccountID.IsEqual<@P.AsInt>> .View.Select(Base, Base.BAccount.Current.BAccountID).TopFirst;
             if (contactPrimary != null)
@@ -77,6 +78,15 @@ namespace PX.Objects.AR
                 string chat_id = salesPersonExt.UsrBotID.ToString();
                 if(chat_id.Length > 0)
                     SendByTelegram(chat_id, data, file.FullName,"Customer Outstanding Balance Of " + Base.BAccount.Current.AcctName);
+                SalesPerson salesPersonSup = SelectFrom<SalesPerson>.Where<SalesPerson.salesPersonID.IsEqual<@P.AsInt>>.View.Select(Base, salesPersonExt.UsrSupervisorID);
+                if(salesPersonSup != null)
+                {
+                    var salesPersonSupExt = salesPersonSup.GetExtension<SalesPersonExt>();
+                    string sup_chat_id = salesPersonSupExt.UsrBotID.ToString();
+                    if(sup_chat_id.Length > 0)
+                        SendByTelegram(sup_chat_id, data, file.FullName, "Customer Outstanding Balance Of " + Base.BAccount.Current.AcctName);
+                }
+
             }
 
             //send cc 
