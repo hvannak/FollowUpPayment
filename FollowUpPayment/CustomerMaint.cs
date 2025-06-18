@@ -66,7 +66,7 @@ namespace PX.Objects.AR
             if (contactPrimary != null)
             {
                 string c_chat_id = contactPrimary.Fax;
-                if(c_chat_id.Length > 0)
+                if(!string.IsNullOrEmpty(c_chat_id))
                     SendByTelegram(c_chat_id, data, file.FullName, "Customer Outstanding Balance Of " + Base.BAccount.Current.AcctName);
             }
             PXResultset<SalesPerson> listSalesPerson = SelectFrom<SalesPerson>.InnerJoin<CustSalesPeople>.On<SalesPerson.salesPersonID.IsEqual<CustSalesPeople.salesPersonID>>.Where<CustSalesPeople.bAccountID.IsEqual<@P.AsInt>>.View.Select(Base, Base.BAccount.Current.BAccountID);
@@ -76,14 +76,14 @@ namespace PX.Objects.AR
                 SalesPerson salesPerson = (SalesPerson)item;
                 var salesPersonExt = salesPerson.GetExtension<SalesPersonExt>();
                 string chat_id = salesPersonExt.UsrBotID.ToString();
-                if(chat_id.Length > 0)
+                if(!string.IsNullOrEmpty(chat_id))
                     SendByTelegram(chat_id, data, file.FullName,"Customer Outstanding Balance Of " + Base.BAccount.Current.AcctName);
                 SalesPerson salesPersonSup = SelectFrom<SalesPerson>.Where<SalesPerson.salesPersonID.IsEqual<@P.AsInt>>.View.Select(Base, salesPersonExt.UsrSupervisorID);
                 if(salesPersonSup != null)
                 {
                     var salesPersonSupExt = salesPersonSup.GetExtension<SalesPersonExt>();
                     string sup_chat_id = salesPersonSupExt.UsrBotID.ToString();
-                    if(sup_chat_id.Length > 0)
+                    if(!string.IsNullOrEmpty(sup_chat_id))
                         SendByTelegram(sup_chat_id, data, file.FullName, "Customer Outstanding Balance Of " + Base.BAccount.Current.AcctName);
                 }
 
@@ -98,13 +98,13 @@ namespace PX.Objects.AR
                 string[] listCC = telCC.Split(';');
                 foreach (var cc_chat_id in listCC)
                 {
-                    if(cc_chat_id.Length > 0)
+                    if(!string.IsNullOrEmpty(cc_chat_id))
                         SendByTelegram(cc_chat_id, data, file.FullName, "Customer Outstanding Balance Of " + Base.BAccount.Current.AcctName);
                 }
             }
             else
             {
-                if(telCC.Length > 0)
+                if(!string.IsNullOrEmpty(telCC))
                     SendByTelegram(telCC, data, file.FullName, "Customer Outstanding Balance Of " + Base.BAccount.Current.AcctName);
             }
 

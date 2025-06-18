@@ -1,8 +1,7 @@
-C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\obj\Debug\FollowUpPayment.csproj.AssemblyReference.cache
-C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\obj\Debug\FollowUpPayment.csproj.CoreCompileInputs.cache
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\FollowUpPayment.dll
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\FollowUpPayment.pdb
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\Newtonsoft.Json.dll
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\System.Threading.Tasks.Extensions.dll
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.Common.dll
@@ -11,6 +10,10 @@ C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\F
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.Data.BQL.Fluent.dll
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.Data.dll
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.Objects.DLL
+C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.Reports.Design.dll
+C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.Reports.dll
+C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\RestSharp.dll
+C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\Sales.dll
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
@@ -35,10 +38,8 @@ C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\F
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\Microsoft.Extensions.Options.dll
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.Export.dll
-C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.Reports.dll
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.BulkInsert.dll
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.Reports.ARm.dll
-C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\Newtonsoft.Json.dll
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\Microsoft.Extensions.Logging.dll
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.Hosting.dll
@@ -149,7 +150,6 @@ C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\F
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\System.Web.Http.Owin.dll
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\Microsoft.AspNetCore.Routing.dll
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.Dashboards.Caching.dll
-C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\RestSharp.dll
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.CloudServices.Abstractions.dll
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\System.Net.Http.Json.dll
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\Autofac.Integration.Owin.dll
@@ -219,6 +219,9 @@ C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\F
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.Objects.pdb
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.Objects.xml
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.Objects.dll.config
+C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.Reports.pdb
+C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.Reports.Design.pdb
+C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\Sales.pdb
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.Common.Parser.pdb
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.Common.Mail.pdb
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.Archiver.pdb
@@ -226,7 +229,6 @@ C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\F
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.DbServices.pdb
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.DbServices.xml
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.Export.pdb
-C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.Reports.pdb
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.BulkInsert.pdb
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.BulkInsert.xml
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.Reports.ARm.pdb
@@ -332,10 +334,10 @@ C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\F
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\ru\System.Spatial.resources.dll
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\zh-Hans\System.Spatial.resources.dll
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\obj\Debug\FollowUpPayment.csproj.AssemblyReference.cache
+C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\obj\Debug\FollowUpPayment.csproj.CoreCompileInputs.cache
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\obj\Debug\FollowUpPayment.csproj.CopyComplete
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\obj\Debug\FollowUpPayment.dll
 C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\obj\Debug\FollowUpPayment.pdb
-C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.Reports.Design.dll
-C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\PX.Reports.Design.pdb
-C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\Sales.dll
-C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\Sales.pdb
+C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\Medivet.dll
+C:\Program Files\Acumatica ERP\Medivet2022R2\App_Data\Projects\FollowUpPayment\FollowUpPayment\bin\Debug\Medivet.pdb
