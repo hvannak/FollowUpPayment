@@ -120,6 +120,18 @@ namespace PX.Objects.SO
                                                 {
                                                     Helper.SendByTelegramWithFile(salesPersonExt.UsrBotID, data, Base.Document.Current.OrderNbr, "Sales Order: " + Base.Document.Current.OrderNbr);
                                                 }
+                                                if (salesPersonExt.UsrSupervisorID != null)
+                                                {
+                                                    SalesPerson supervisor = SelectFrom<SalesPerson>.Where<SalesPerson.salesPersonID.IsEqual<@P.AsInt>>.View.Select(Base, salesPersonExt.UsrSupervisorID).TopFirst;
+                                                    if(supervisor != null)
+                                                    {
+                                                        SalesPersonExt supervisorExt = supervisor.GetExtension<SalesPersonExt>();
+                                                        if (!supervisorExt.UsrBotID.IsNullOrEmpty())
+                                                        {
+                                                            Helper.SendByTelegramWithFile(supervisorExt.UsrBotID, data, Base.Document.Current.OrderNbr, "Sales Order: " + Base.Document.Current.OrderNbr);
+                                                        }
+                                                    }
+                                                }
                                             }
                                         }
                                         
